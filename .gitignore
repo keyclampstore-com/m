@@ -89,3 +89,9 @@
 # 2) "Magento since 2.4.7 sets `skip_adjustments` to `false` for the `oldPrice` block":
 # https://mage2.pro/t/6541
 !/vendor/magento/module-catalog/view/base/templates/product/price/final_price.phtml
+# 2026-02-02 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# "`MageWorx_ShippingRules`: «Magento\Customer\Model\Address\AbstractAddress\CountryModelsCache::get():
+# Argument #1 ($key) must be of type string, null given,
+# called in vendor/magento/module-customer/Model/Address/AbstractAddress.php on line 532»":
+# https://github.com/keyclampstore-com/m/issues/37
+!/vendor/mageworx/module-shippingrules/Block/Cart/LayoutProcessor.php
