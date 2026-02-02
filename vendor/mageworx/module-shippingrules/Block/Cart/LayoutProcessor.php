@@ -119,9 +119,13 @@ class LayoutProcessor implements LayoutProcessorInterface
         $customerData = $this->geoIp->getCurrentLocation();
         if ($customerData->getCode()) {
             /** @var \Magento\Directory\Model\Country $currentCountry */
-            $currentCountry = $shippingAddress
-                ->getCountryModel()
-                ->loadByCode($customerData->getCode());
+			# 2026-02-02 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+			# "`MageWorx_ShippingRules`:
+			# «Magento\Customer\Model\Address\AbstractAddress\CountryModelsCache::get():
+			# Argument #1 ($key) must be of type string, null given,
+			# called in vendor/magento/module-customer/Model/Address/AbstractAddress.php on line 532»":
+			# https://github.com/keyclampstore-com/m/issues/37
+			$currentCountry = df_country($customerData->getCode(), false);
             if (!$currentCountry) {
                 return;
             }
