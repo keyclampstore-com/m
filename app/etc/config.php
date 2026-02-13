@@ -461,6 +461,7 @@ return [
         'Magefan_BlogGraphQl' => 1,
         'Magefan_AdminUserGuide' => 1,
         'Magefan_HtmlSitemap' => 1,
+        'Magefan_LoginAsCustomer' => 1,
         'Magefan_OgTags' => 1,
         'Magefan_RichSnippets' => 1,
         'Magefan_Seo' => 1,
