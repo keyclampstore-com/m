@@ -28,6 +28,7 @@
         "fooman/emailattachments-m2": "3.6.1",
         "fooman/sameorderinvoicenumber-m2": "^3.0",
         "mage2pro/core": "*",
+        "magefan/module-login-as-customer": "*",
         "magefan/module-seo-extra": "^2.5.1",
         "magemojo/m2-ce-cron": "^1.3",
         "magento/composer-dependency-version-audit-plugin": "~0.1",
