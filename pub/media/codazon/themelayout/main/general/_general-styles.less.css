@@ -215,10 +215,11 @@ div.mage-error[generated]{
 
 @extra_container_elements: ~'.breadcrumbs .items, .page-main:not(.page-main-full) > div';
 // 2026-02-24 Dmitrii Fediuk https://upwork.com/fl/mage2pro
-// 1) `less.js` of `Codazon_ThemeLayoutPro` fails:
-// «Operation on an invalid type in _general-styles.less.css on line 217»
+// 1) `lib/web/less/less.min.js` («Less - Leaner CSS») 4.2.0 (shipped with Magento 2.4.8-p3)
+// fails on the Less files of `Codazon_ThemeLayoutPro`
 // 2) https://github.com/keyclampstore-com/m/blob/2026-02-24-1/pub/media/codazon/themelayout/main/general/_general-styles.less.css#L217
-// 3) https://gemini.google.com/share/bc051692f6ec
+// 3) https://github.com/magento/magento2/blob/2.4.8-p3/lib/web/less/less.min.js
+// 4) https://gemini.google.com/share/bc051692f6ec
 @container_elements: ~'@{extra_container_elements}, .container';
 
 @media @phone{
