@@ -223,6 +223,8 @@ div.mage-error[generated]{
 // 2) `wikimedia/less.php` 5.5.0 (used by Magento 2.4.8-p3)
 // fails on the Less files of `Codazon_ThemeLayoutPro`: «Operation on an invalid type»:
 // https://github.com/keyclampstore-com/m/issues/43
+// 3) The previous code:
+//		@container_elements: @extra_container_elements + ~', .container';
 @container_elements: ~'@{extra_container_elements}, .container';
 
 @media @phone{
