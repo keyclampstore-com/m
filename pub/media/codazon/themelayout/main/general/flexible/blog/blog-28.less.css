@@ -1,0 +1,115 @@
+.post-list-style28 {
+    --i-col-gap: 30px;
+    --i-pd: 20px;
+    .item-group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .i-inner {
+        display: flex;
+        gap: var(--i-col-gap);
+        padding: var(--i-pd);
+        box-shadow: 0px 2px 4px 0px rgba(153,153,153,10%);
+        margin-block: 5px 10px;
+        margin-inline-start: 7px;
+        border-radius: 15px;
+        overflow: hidden;
+        background: @main_box_background;
+        border: 1px solid @main_box_border;
+    }
+    .i-top {
+        flex: 0 0 30%;
+    }
+    .i-img {
+        border-radius: 13px;
+    }
+    .post-bottom {
+        flex-grow: 1;
+        color: @main_text_normal;
+        a {
+            color: @main_text_normal;
+        }
+    }
+    a.post-category {
+        padding: 2px 12px;
+        font-size: 80%;
+        border-radius: 5px;
+        background: fade(@btn_primary_background, 10%);
+        color: @main_block_title_text;
+        font-weight: normal;
+        text-transform: uppercase;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
+        display: inline-block;
+    }
+    .post-head {
+        padding-bottom: 15px;
+    }
+    .post-title {
+        font-size: 120%;
+        margin-bottom: 12px;
+        flex-grow: 1;
+        color: @main_block_title_text;
+    }
+    a.post-item-link {
+        color: @main_text;
+        font-weight: 700;
+    }
+    .post-extra {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        > div, a {
+            font-weight: 500;
+            //color: darken(@btn_primary_background, 10%);
+        }
+    }
+    .post-date:before,
+    .post-author:before {
+        font: normal normal normal 20px/1 FontAwesome;
+        content: "\f073";
+        margin-inline-end: 9px;
+        display: inline-flex;
+        color: @btn_primary_background;
+    }
+    .post-author:before {
+        content: "\f2c0";
+    }
+    .post-extra + .post-desc {
+        margin-top: 10px;
+    }
+    .post-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    @media @tablet_vertical {
+        .i-img {
+            img {
+                transition: .5s;
+            }
+        }
+        .post-item:hover {
+            .i-img {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    @media @phone {
+        --i-pd: 10px 10px 20px;
+        .i-inner {
+            flex-direction: column;
+            gap: 10px;
+        }
+        .post-author {
+            display: none;
+        }
+        .i-top {
+            flex: 0 0 auto;
+        }
+    }
+}

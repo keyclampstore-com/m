@@ -1,0 +1,17 @@
+.cdz-acco-base {
+    .mobile-toggle[class], ul.box-cate-link[class] {
+        display: none;
+    }
+    .tab-content {
+        display: none;
+    }
+    .tab-item.active {
+        .tab-content {
+            display: block;
+            animation: fadeIn 1s;
+        }
+    }
+    .df-tabs .tab-item {
+        display: block;
+    }
+}

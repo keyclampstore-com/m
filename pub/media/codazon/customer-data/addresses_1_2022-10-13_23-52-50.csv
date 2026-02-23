@@ -1,0 +1,11 @@
+CITY,COMPANY,COUNTRY,FAX,PREFIX,"FIRST NAME","LAST NAME","MIDDLE NAME",SUFFIX,"POST CODE",REGION,STREET,TEL
+sdf,,"United States",,Ms,Nicolas,Codazon,,Sr.,21343,Alaska,"sdf
+",3242342
+Paris,Codazon,"United States",,Mr.,Nicolas,Codazon,,Sr.,12345,Alaska,"123 Le Grand Rex tower, Tuileries Palace
+",0123456789
+Paris,Codazon,France,,Mr.,Nicolas,Codazon,,Sr.,12345,Ain,"123 Le Grand Rex tower, Tuileries Palace
+",0123456789
+Paris,Codazon,Antarctica,,Mr.,Nicolas,Codazon,,Sr.,12345,,"123 Le Grand Rex tower, Tuileries Palace
+",0123456789
+Paris,Codazon,Ethiopia,,Mr.,Nicolas,Codazon,,Sr.,12345,,"123 Le Grand Rex tower, Tuileries Palace
+",0123456789

@@ -1,0 +1,82 @@
+.cdz-timer-05 {
+    --tm-ic-txt: #9ac59c;
+    --tm-ic-code: "\f017";
+    --tm-val-txt: @btn_primary_background;
+    .countdown-timer {
+        .timer-wrap {
+            display: flex;
+            align-items: center;
+            &:before {
+                font: normal normal normal 30px/1 FontAwesome;
+                content: "\f017";
+                color: var(--tm-ic-txt);
+                margin-inline-end: 5px;
+            }
+        }
+        .deal-items {
+            display: flex;
+            gap: 15px;
+        }
+        .deal-item {
+            display: flex;
+            flex-direction: column;
+            user-select: none;
+            min-width: 50px;
+            .value {
+                font-size: 160%;
+                padding: 8px 0px 0px;
+                font-weight: 500;
+                text-align: center;
+                color: var(--tm-val-txt);
+                width: 100%;
+                position: relative;
+                display: block;
+                &:after {
+                    content: ':';
+                    position: absolute;
+                    inset-inline: auto -10px;
+                }
+            }
+            .label {
+                font-size: 80%;
+                padding: 0px 0px 8px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            
+            &:last-child {
+                 .value:after {
+                     display: none;
+                 }
+            }
+        }
+    }
+    .cd-expired {
+        .timer-block {
+            opacity: 0.6;
+        }
+    }
+    .cd-expired-msg {
+        padding: 7px 10px;
+        background: #ffc107;
+        color: #fff;
+        border-radius: 2px;
+        margin: 10px 0;
+        &:before {
+            font-family: fontAwesome;
+            content: "\f071";
+            font-size: 18px;
+            font-weight: normal;
+            margin: 0 7px 0 0;
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 1;
+            .rtl-layout & {
+                margin: 0 0 0 7px;
+            }
+        }
+    }
+    @media @phone {
+        
+    }
+}

@@ -1,0 +1,34 @@
+.cdz-marquee-02 {
+    --i-bkg: transparent;
+    --i-txt: inherit;
+    --i-bd: fade(#000,10%);
+    --i-ic-w: 35px;
+    --i-pd: 15px 30px;
+    --i-bkg-hv: @btn_primary_background;
+    --i-txt-hv: @btn_primary_text;
+    --i-bd-hv: @btn_primary_border;    
+    .mq-inner {
+        background: var(--i-bkg);
+        color: var(--i-txt);
+        padding-block: 20px;
+        a {
+            color: var(--i-txt);
+        }
+    }
+    .mq-item {
+        padding: var(--i-pd);
+        white-space: nowrap;
+        position: relative;
+        transition: .4s;
+        border: 1px solid var(--i-bd);
+        border-radius: 30px;
+        font-size: 110%;
+        margin-inline-end: 20px;
+        font-weight: 700;
+        &:hover {
+            background-color: var(--i-bkg-hv);
+            color: var(--i-txt-hv);
+            border-color: var(--i-bd-hv);
+        }
+    }
+}

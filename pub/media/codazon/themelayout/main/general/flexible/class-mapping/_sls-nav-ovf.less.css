@@ -1,0 +1,19 @@
+.sls-nav-ovf {
+    &.base-slider {
+        --nav-os-x: ~'calc(-.5 * var(--nav-w))';
+        .owl-nav[class] [class*='owl-'][class].disabled {
+            opacity: 1;
+            &:after {
+                content: '';
+                position: absolute;
+                width: ~'calc(100% + 2*var(--nav-bd-w))';
+                height: ~'calc(100% + 2*var(--nav-bd-w))';
+                border-radius: var(--nav-bdr);
+                left: ~'calc(-1*var(--nav-bd-w))';
+                top: ~'calc(-1*var(--nav-bd-w))';
+                background: fade(#fff,70%);
+                z-index: 2;
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.page-footer {
+    .block.newsletter {
+        padding-block: 3px;
+        padding-inline: 20px 5px;
+        border: 1px solid @footer_border;
+        border-radius: 30px;
+    }
+}

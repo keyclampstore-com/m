@@ -1,0 +1,84 @@
+.box-style-06 {
+    --box-bkg: @main_box_background;//linear-gradient(to bottom, fade(@btn_primary_background, 8%) 0%, @main_box_background 45%);
+    --box-txt: @main_block_title_text;
+    --box-bd: fade(@btn_primary_background, 20%);
+    --box-tt-txt: @btn_primary_text;
+    --box-tt-bkg: @btn_primary_background;
+    --box-tt-bd: var(--box-tt-bkg);
+    padding: 40px 20px 20px;
+    border-radius: 15px;
+    border: 1px solid var(--box-bd);
+    background: var(--box-bkg);
+    color: var(--box-txt);
+    &.product-list-style-64 {
+        --i-go-bkg: var(--box-tt-bkg);
+        --i-go-txt: var(--box-tt-txt);
+        --i-go-bd: var(--box-tt-bd);
+        .product-item {
+            border: none;
+            box-shadow: none;
+            border-bottom: 1px solid @main_box_border;
+            border-radius: 0px;
+            background: transparent;
+            
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+        .product-item-top {
+            padding-inline-start: 0;
+        }
+    }
+    
+    .cdz-block-title {
+        .b-title[class] {
+            font-size: 110%;
+            color: var(--box-txt);
+            z-index: 1;
+            position: relative;
+            font-weight: 700;
+            .inner {
+                background: var(--box-tt-bkg);
+                color: var(--box-tt-txt);
+                padding: 8px 25px;
+                border-radius: 35px;
+                font-weight: 700;
+            }
+            .btn-arrow {
+                &:after {
+                    font: normal normal normal 16px/1 CodazonFont;
+                    content: '\e99a';
+                    margin-inline: 10px -10px;
+                    display: inline-flex;
+                    transform: rotateZ(-45deg);
+                    .rtl-layout & {
+                        transform: rotateZ(225deg);
+                    }
+                }
+            }
+        }
+    }
+    .grid.products-grid .products:not(.row),
+    .grid.products-grid.products:not(.row) {
+        overflow: visible;
+    }
+    &.base-slider {
+        .owl-nav[class] {
+            width: auto;
+            top: -63px;
+            inset-inline: auto 10px;
+            display: flex !important;
+            gap: 10px;
+        }
+        .owl-nav[class] [class*='owl-'][class] {
+            position: relative;
+            inset: auto;
+            transform: none;
+            opacity: 1;
+            visibility: visible;
+            &.disabled {
+                opacity: 0.4;
+            }
+        }
+    }
+}
