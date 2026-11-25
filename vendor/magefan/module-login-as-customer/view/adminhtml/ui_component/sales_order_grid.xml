@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
-<!-- 2026-02-14 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+<!-- 2026-02-14 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 "Delete the «Action II» spam column (unwillingly added by `magefan/module-login-as-customer`)
 from the backend order grid": https://github.com/keyclampstore-com/m/issues/41 -->
 </listing>

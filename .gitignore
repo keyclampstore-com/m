@@ -1,4 +1,4 @@
-# 2025-08-29 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2025-08-29 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # https://stackoverflow.com/questions/987142
 # https://stackoverflow.com/questions/9162919
 # https://stackoverflow.com/questions/8024924#comment15884195_8025106
@@ -9,7 +9,7 @@
 !/composer.json
 !/readme.md
 !/app/code/**/*
-# 2025-04-02 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2025-04-02 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # https://chatgpt.com/c/67ecb56c-c39c-8003-b84d-201ec94aec0b
 # https://gemini.google.com/u/1/app/6b203ee6c0eac7d7
 # https://grok.com/chat/821bd013-e733-4dd3-b3c2-8a338cef1c99
@@ -17,16 +17,16 @@
 !/app/design/frontend/**/*
 /app/design/frontend/Magento/
 !/app/etc/config.php
-# 2023-07-22 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2023-07-22 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # Today I noticed that `git add . && git commit -a -m refactoring && git push`
 # started to commit subfolders which are git repositories (for an unknown reason).
 # 2025-04-03 https://g.co/gemini/share/8935d11b67a5
 /_my
 /dev
 /update/
-# 2025-04-03 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2025-04-03 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # https://g.co/gemini/share/8935d11b67a5
-# 2025-05-21 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2025-05-21 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) https://g.co/gemini/share/e0a1ce59ec79
 # 2) https://chatgpt.com/share/682d5158-5c18-8003-b315-57a4ae068d30
 # 2025-08-31
@@ -37,43 +37,43 @@
 #/vendor/*
 # 2025-08-31 https://g.co/gemini/share/ece13e39c278
 /vendor/**/tests/
-# 2025-05-23 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2025-05-23 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 /vendor/mage2pro
 /vendor/magento/framework/Test
 /vendor/magento/magento2-base
 /vendor/tubalmartin
-# 2026-01-29 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2026-01-29 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # "Disable `E_DEPRECATED` PHP warnings as the project is fixed priced":
 # https://github.com/keyclampstore-com/m/issues/27
 !/app/bootstrap.php
-# 2025-09-01 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2025-09-01 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "Adapt the website to Windows-based servers": https://github.com/keyclampstore-com/m/issues/2
 # 2) "How to adapt `pub/get.php` to Windows in Magento ≥ 2.4.2?" https://mage2.pro/t/6415
 !/pub/get.php
-# 2026-02-24 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2026-02-24 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 !/pub/media/codazon/**/*
-# 2025-09-01 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2025-09-01 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "Adapt the website to Windows-based servers": https://github.com/keyclampstore-com/m/issues/2
 # 2) "How to fix interceptors generation on `bin/magento setup:di:compile` in Magento ≥ 2.2 in Windows?":
 # https://mage2.pro/t/4702
 !/setup/src/Magento/Setup/Module/Di/Code/Reader/ClassesScanner.php
-# 2025-09-01 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2025-09-01 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "Adapt the website to Windows-based servers": https://github.com/keyclampstore-com/m/issues/2
 # 2) "How to fix catalog images in Magento ≥ 2.3.5 in Windows?" https://mage2.pro/t/6210
 !/vendor/magento/framework/Image/Adapter/Gd2.php
-# 2025-09-01 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2025-09-01 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "Adapt the website to Windows-based servers": https://github.com/keyclampstore-com/m/issues/2
 # 2) "How to fix «file_put_contents(generated/metadata/primary|global|plugin-list.php):
 # failed to open stream: No such file or directory
 # in lib\internal\Magento\Framework\Interception\PluginListGenerator.php on line 414»
 # in Magento 2.4-develop in Windows?" https://mage2.pro/t/6178
 !/vendor/magento/framework/Interception/PluginListGenerator.php
-# 2025-09-01 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2025-09-01 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "Adapt the website to Windows-based servers": https://github.com/keyclampstore-com/m/issues/2
 # 2) "How to fix the «Invalid template file» / «require_js.phtml» failure for Magento ≥ 2.4.5 in Windows?"
 # https://mage2.pro/t/6339
 !/vendor/magento/framework/View/Element/Template/File/Validator.php
-# 2025-09-01 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2025-09-01 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "Adapt the website to Windows-based servers": https://github.com/keyclampstore-com/m/issues/2
 # 2) "How to fix URLs of catalog images in Windows for Magento ≥ 2.3.0?": https://mage2.pro/t/6413
 # 3.1) "The `Swissup_Pagespeed` module breaks URLs of images in Windows":
@@ -83,7 +83,7 @@
 # 3.3) "The `Swissup_Pagespeed` module breaks URLs of categories' images in Windows":
 # https://github.com/mydreamday-fi/site/issues/17
 !/vendor/magento/module-catalog/Model/View/Asset/Image.php
-# 2026-01-30 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2026-01-30 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1.1) "The price block on the frontend product screen is broken
 # after the Magento 2.4.5-p10 → 2.4.8-p3 upgrade": https://github.com/keyclampstore-com/m/issues/31
 # 1.2) "How did I repair the broken price block on the frontend product screen
@@ -91,11 +91,11 @@
 # 2) "Magento since 2.4.7 sets `skip_adjustments` to `false` for the `oldPrice` block":
 # https://mage2.pro/t/6541
 !/vendor/magento/module-catalog/view/base/templates/product/price/final_price.phtml
-# 2026-02-14 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2026-02-14 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # "Delete the «Action II» spam column (unwillingly added by `magefan/module-login-as-customer`)
 # from the backend order grid": https://github.com/keyclampstore-com/m/issues/41
 !/vendor/magefan/module-login-as-customer/view/adminhtml/ui_component/sales_order_grid.xml
-# 2026-02-02 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2026-02-02 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # "`MageWorx_ShippingRules`: «Magento\Customer\Model\Address\AbstractAddress\CountryModelsCache::get():
 # Argument #1 ($key) must be of type string, null given,
 # called in vendor/magento/module-customer/Model/Address/AbstractAddress.php on line 532»":

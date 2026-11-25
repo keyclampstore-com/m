@@ -6,7 +6,7 @@ use Magento\Quote\Model\Quote as Q;
 use Magento\Quote\Model\Quote\Address\Total as T;
 final class ChangeTaxTotal implements ObserverInterface {
 	/**
-	 * 2025-09-08 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+	 * 2025-09-08 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 	 * "Refactor the `Its_Addfee` module": https://github.com/keyclampstore-com/m/issues/4
 	 */
     function execute(O $o):void {

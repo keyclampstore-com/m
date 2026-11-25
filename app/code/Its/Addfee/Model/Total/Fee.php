@@ -23,7 +23,7 @@ class Fee extends \Magento\Quote\Model\Quote\Address\Total\AbstractTotal {
         \Magento\Quote\Model\Quote\Address\Total $t
     ) {
         parent::collect($quote, $shippingAssignment, $t);
-		# 2025-09-01 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+		# 2025-09-01 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 		# "Repair the payment process when a powder coating fee is applied":
 		# https://github.com/keyclampstore-com/m/issues/3
 		$add = function(string $k, float $v) use($t) {
@@ -54,7 +54,7 @@ class Fee extends \Magento\Quote\Model\Quote\Address\Total\AbstractTotal {
     }
 
 	/**
-	 * 2025-09-02 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+	 * 2025-09-02 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 	 * "Refactor the `Its_Addfee` module": https://github.com/keyclampstore-com/m/issues/4
 	 * @used-by self::collect()
 	 * @used-by self::fetch()

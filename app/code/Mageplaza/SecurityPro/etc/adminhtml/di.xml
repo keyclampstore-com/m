@@ -21,7 +21,7 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-<!-- 2026-01-28 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+<!-- 2026-01-28 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 1.1) "`Mageplaza_SecurityPro`: «Preference declared for "Zend\ServiceManager\ServiceLocatorInterface"
 as "Zend\ServiceManager\ServiceManager", but the latter does not exist» on `bin/magento setup:di:compile"
 https://github.com/keyclampstore-com/m/issues/19

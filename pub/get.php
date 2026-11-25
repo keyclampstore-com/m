@@ -58,7 +58,7 @@ if (file_exists($configCacheFile) && is_readable($configCacheFile)) {
 
         // Serve file if it's materialized
         if ($mediaDirectory) {
-			# 2025-09-01 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+			# 2025-09-01 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 			# 1) "Adapt the website to Windows-based servers": https://github.com/keyclampstore-com/m/issues/2
 			# 2) "How to adapt `pub/get.php` to Windows in Magento ≥ 2.4.2?" https://mage2.pro/t/6415
             $fileAbsolutePath = str_replace('\\', '/', __DIR__) . '/' . $relativePath;

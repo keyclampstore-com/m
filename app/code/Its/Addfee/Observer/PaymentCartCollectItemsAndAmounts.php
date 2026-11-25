@@ -8,7 +8,7 @@ use Magento\Paypal\Model\Cart as C;
 use Magento\Quote\Model\Quote as Q;
 class PaymentCartCollectItemsAndAmounts implements ObserverInterface {
     /**
-	 * 2025-09-08 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+	 * 2025-09-08 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 	 * 1) "Refactor the `Its_Addfee` module": https://github.com/keyclampstore-com/m/issues/4
 	 * 2) `payment_cart_collect_items_and_amounts`
      * @param Observer $observer
@@ -17,7 +17,7 @@ class PaymentCartCollectItemsAndAmounts implements ObserverInterface {
     function execute(Observer $observer) {
         $c = $observer->getEvent()->getCart();  /** @var C $c */
 		if ($c instanceof C) {
-			# 2025-09-08 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+			# 2025-09-08 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 			# 1) «Trying to access array offset on value of type null
 			# in app/code/Its/Addfee/Observer/PaymentCartCollectItemsAndAmounts.php on line 25»:
 			# https://github.com/keyclampstore-com/m/issues/5

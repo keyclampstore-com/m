@@ -7,7 +7,7 @@
 /**
  * Environment initialization
  */
-# 2026-01-29 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2026-01-29 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # "Disable `E_DEPRECATED` PHP warnings as the project is fixed priced":
 # https://github.com/keyclampstore-com/m/issues/27
 error_reporting(E_ALL ^ E_DEPRECATED);
